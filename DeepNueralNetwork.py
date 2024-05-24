@@ -2,19 +2,9 @@ import numpy as np
 from math import pi,cos
 import pickle as pkl
 """
-Author: Mao
-Email: reoru@qq.com
-School: Tai Yuan University of Technology,China
-Description: 
     This is my assignment file for deep learning course,
 besides full mathematical deduction I optimized numerical
 stability by using Xavier initiate and Cosine annealing.
-    Currently the DNN class only sopport mean square erro
-loss function,soon I will update other loss functions such 
-as: crossentropy,focal loss and regulization method.
-    If you find glitches of the program,please email me or
-pull issue.
-Copyright © 2024
 """
 
 class CosineAnnealing:
